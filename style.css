@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+div{
+    width: 50vw;
+    height: 1000px;
+    background-color: aqua;
+    position: relative;
+}
+.box{
+    width: 100px;
+    height: 100px;
+
+}
+#box1{
+    background-color: brown;
+    position: relative;
+    top: 20px;
+    left: 300px;
+}
+#box2{
+    background-color: rgb(138, 165, 42);
+}
+#box3{
+    background-color: rgb(52, 42, 165);
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+#box4{
+    background-color: rgb(42, 165, 56);
+    position: sticky;
+    top: 10px;
+    left: 40px;
+}
